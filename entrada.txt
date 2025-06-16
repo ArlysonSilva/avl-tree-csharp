@@ -1,0 +1,31 @@
+I 50
+I 30
+I 70
+I 20
+I 40
+I 60
+I 80
+P
+B 40
+B 90
+R 30
+P
+B 30
+F
+H
+
+
+
++ Inserir(valor: int)
++ Remover(valor: int)
++ Buscar(valor: int): bool
++ PreOrdem()
++ ImprimirFB()
++ Altura(): int
+
+- AtualizarAltura(no: No)
+- FatorBalanceamento(no: No)
+- Balancear(no: No): No
+- RotacionarEsquerda(no: No)
+- RotacionarDireita(no: No)
+- BuscarMinimo(no: No): No
