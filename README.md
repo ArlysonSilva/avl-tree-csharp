@@ -23,13 +23,17 @@ dotnet run
 | H       | Mostrar altura da árvore       |
 
 3. Crie um arquivo `entrada.txt` com comandos, por exemplo:
-I 10
-I 20
-B 10
-R 20
-P
-F
-H
+|I 10     |
+|I 20     |
+|B 10     |
+|R 20     |
+|P        |
+|F        |
+|H        |
+
+## Diagrama UML
+
+![Diagrama UML da Estrutura](diagrama.png)
 
 
 ## Arquivos
@@ -37,6 +41,8 @@ H
 - no.cs: Classe Nó
 - program.cs: Programa principal
 -entrada.txt: Exemplo de utilização
+-diagrama.png: Diagrama UML do programa
+
 
 ## Integrantes
 - Kauan Melo - RA: 113471  
