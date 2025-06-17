@@ -16,32 +16,32 @@ namespace AVL_projeto
                 string[] partes = linha.Split(' ');
                 string comando = partes[0];
 
-                if (comando == "I")
+                if (comando == "I" || comando == "i")
                 {
                     int valor = int.Parse(partes[1]);
                     arvore.Inserir(valor);
                 }
-                else if (comando == "R")
+                else if (comando == "R" || comando == "r")
                 {
                     int valor = int.Parse(partes[1]);
                     arvore.Remover(valor);
                 }
-                else if (comando == "B")
+                else if (comando == "B" || comando == "b")
                 {
                     int valor = int.Parse(partes[1]);
                     Console.WriteLine(arvore.Buscar(valor) ? "O Valor encontrado" : "O valor não encontrado");
                 }
-                else if (comando == "P")
+                else if (comando == "P" || comando == "p")
                 {
                     Console.Write("Árvore em pré-ordem: ");
                     arvore.PreOrdem();
                 }
-                else if (comando == "F")
+                else if (comando == "F" || comando == "f")
                 {
                     Console.WriteLine("Fatores de balanceamento:");
                     arvore.ImprimirFB();
                 }
-                else if (comando == "H")
+                else if (comando == "H" || comando == "h")
                 {
                     Console.WriteLine($"Altura da árvore: {arvore.Altura()}");
                 }
