@@ -29,7 +29,7 @@ namespace AVL_projeto
                 else if (comando == "B")
                 {
                     int valor = int.Parse(partes[1]);
-                    Console.WriteLine(arvore.Buscar(valor) ? "Valor encontrado" : "Valor não encontrado");
+                    Console.WriteLine(arvore.Buscar(valor) ? "O Valor encontrado" : "O valor não encontrado");
                 }
                 else if (comando == "P")
                 {
