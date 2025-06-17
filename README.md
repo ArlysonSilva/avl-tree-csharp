@@ -1,5 +1,11 @@
 # 🌳 Projeto AVL Tree em C#
 
+## 👨‍💻 Integrantes
+
+* **Kauan Melo** — RA: 113471
+* **Arlyson Silva** — RA: 113627
+* **Richard Nicholas Rocha** — RA: 113760
+
 📁 Repositório: [https://github.com/ArlysonSilva/avl-tree-csharp](https://github.com/ArlysonSilva/avl-tree-csharp)
 
 ## 📌 Descrição
@@ -119,15 +125,6 @@ Valor encontrado
 Árvore em pré-ordem: 30 20 10 45
 Altura da árvore: 3
 ```
-
----
-
-## 👨‍💻 Integrantes
-
-* **Kauan Melo** — RA: 113471
-* **Arlyson Silva** — RA: 113627
-* **Richard Nicholas Rocha** — RA: 113760
-
 ---
 
 ## 📄 Licença
